@@ -43,7 +43,7 @@ pub fn ReplaceColor() -> Element {
                 input {
                     required: true,
                     r#type: "file",
-                    accept: ".jpg, .jpeg",
+                    accept: ".jpg, .jpeg, .png",
                     name: "input-file",
                     onchange: move |ev| {
                         async move {

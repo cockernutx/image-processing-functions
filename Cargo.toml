@@ -17,7 +17,6 @@ gloo = {version = "0.11.0", features = ["file", "futures"]}
 tracing = "0.1.40"
 dioxus-logger = "0.5.0"
 tempfile = {version = "3.10.1", optional = true }
-manganis = "0.2.2"
 regex = {version = "1.10.4"}
 num = {version = "0.4.3", optional = true }
 

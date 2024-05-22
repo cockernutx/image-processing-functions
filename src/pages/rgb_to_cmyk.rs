@@ -42,7 +42,7 @@ pub fn RgbToCmyk() -> Element {
                 input {
                     required: true,
                     r#type: "file",
-                    accept: ".jpg, .jpeg",
+                    accept: ".jpg, .jpeg, .png",
                     name: "input-file",
                     onchange: move |ev| {
                         async move {
@@ -92,6 +92,7 @@ where
 }
 
 use std::collections::HashMap;
+#[allow(dead_code)]
 type Cmyk = HashMap<(u32, u32), (f64, f64, f64, f64)>;
 
 #[server]
